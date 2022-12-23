@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8b8ab8ef-55d4-457d-806c-e5fbc0c93429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\sdk">
+      <UniqueIdentifier>{c64b1ada-edf4-417b-a437-0b437bf37cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\sdk\ue4">
+      <UniqueIdentifier>{afd621b0-9aa7-4b13-960b-9dd641b599fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\misc">
+      <UniqueIdentifier>{fa87eba7-0971-408a-8110-78e0fdaf2897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\client">
+      <UniqueIdentifier>{e4b48a08-cc67-4c82-9f8e-3f3f4d9cffb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\sdk\sdk.h">
+      <Filter>source\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Color.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Math.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Matrix.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Quat.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Rotator.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Transform.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\UE4.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Vector.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Vector2D.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\Vector4.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\includes.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ue4\ue4_extra.h">
+      <Filter>source\sdk\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sk_crypter.hpp">
+      <Filter>source\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\hook.hpp">
+      <Filter>source\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\client\client.hpp">
+      <Filter>source\client</Filter>
+    </ClInclude>
+    <ClInclude Include="source\client\offsets.h">
+      <Filter>source\client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\sdk\ue4\Transform.cpp">
+      <Filter>source\sdk\ue4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sdk\ue4\UE4.cpp">
+      <Filter>source\sdk\ue4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sdk\ue4\ue4_extra.cpp">
+      <Filter>source\sdk\ue4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\client\client.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
