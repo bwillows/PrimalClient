@@ -1,3 +1,4 @@
 
-ARK: Survival Evolved C++ UE4 cheat I script-kiddied to learn C++.
+ARK: Survival Evolved C++ UE4 cheat I script-kiddied when I was younger.
+
 Out of date.
